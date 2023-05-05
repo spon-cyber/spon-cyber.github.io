@@ -1,0 +1,132 @@
+/* Global Styles */
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  background-color: #1c2331;
+}
+
+a {
+  color: #9d86c9;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+/* Navigation */
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+}
+
+nav.sticky {
+  background-color: rgba(0, 0, 0, 0.9);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #9d86c9;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+/* Hero */
+
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("https://images.unsplash.com/photo-1607744351352-5fa5b5c5c5dc?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=marcin-jozwiak-PDQAYPwEXw8-unsplash.jpg") center/cover no-repeat;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.hero h2 {
+  font-size: 28px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 1px;
+  margin: 20px 0 0;
+  padding: 0;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* About */
+
+.about {
+  padding: 100px 0;
+}
+
+.about h2 {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.about p {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  text-align: center;
+}
